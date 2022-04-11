@@ -1,0 +1,16 @@
+.titulo {
+
+padding-top: 2%;
+display: flex;
+justify-content: center;
+font-family: 'Codystar', cursive;
+
+}
+
+#peliculas {
+
+    padding-top: 15%;
+    padding-left: 7%;
+    /* justify-content: center; */
+
+}
