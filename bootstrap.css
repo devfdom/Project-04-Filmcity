@@ -11,6 +11,27 @@ font-family: 'Codystar', cursive;
 
     padding-top: 15%;
     padding-left: 7%;
-    /* justify-content: center; */
 
+}
+
+@font-face {
+
+    font-family: Gagalin;
+    
+    src: url(./fonts/Gagalin-Regular.otf);
+    
+    }
+
+#botones {
+
+    font-family: Gagalin;
+    src: url(./fonts/Gagalin-Regular.otf);
+    padding-top: 1%;
+}
+
+.bg {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
