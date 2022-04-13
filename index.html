@@ -14,28 +14,42 @@
       <div class="titulo">
         <h1><b>Filmity Inter</b></h1>
       </div>
-      
-      <div class="container">
-        <div class="row">
-          <div class="col" class="logo">
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col" class="logo">
+        </div>
+
+        <nav id="nav" class="logo2">
+          <div class="container-fluid" id="logo">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./img/logo.png" alt="" width="25%" height="25%" class="logo2">
+            </a>
           </div>
-
-          <nav id="nav" class="navbar navbar-light fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="./img/logo.png" alt="" width="25%" height="25%" class="d-inline-block align-text-top">
-              </a>
-            </div>
-          </nav>
-        </div>
-
-        <div class="col gap-2 d-md-flex justify-content-md-end" id="botones">
-          <button class="btn btn-primary" type="button">Catálogo</button>
-        </div>
           <div class="col gap-2 d-md-flex justify-content-md-end" id="botones">
+            <a button class="btn btn-primary" href="./admin.html" target="_blank" type="button">Acceso Administrador</button></a>
+          </div>
+            <div class="row">
+            <div class="col gap-2 d-md-flex justify-content-md-end" id="idioma">
+                <div class="btn-group" class="esEnButtons" role="group" aria-label="Basic checkbox toggle button group">
+                    <input type="checkbox" class="btn-check" id="btnCheck1" autocomplete="off">
+                    <label class="btn btn-primary" for="btnCheck1">ES</label>
+                    <input type="checkbox" class="btn-check" id="btnCheck2" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnCheck2">EN</label>
+                </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- </header> -->
+
+
+          <!-- <div class="col gap-2 d-md-flex justify-content-md-end" id="botones">
           <button class="btn btn-primary" type="button">Acceso Administrador</button>
           </div>
-          <div class="row"> 
+          <div class="row">
             <div class="col gap-2 d-md-flex justify-content-md-end" id="botones">
                 <div class="btn-group" class="esEnButtons" role="group" aria-label="Basic checkbox toggle button group">
                     <input type="checkbox" class="btn-check" id="btnCheck1" autocomplete="off">
@@ -43,13 +57,10 @@
                     <input type="checkbox" class="btn-check" id="btnCheck2" autocomplete="off">
                     <label class="btn btn-outline-primary" for="btnCheck2">EN</label>
                 </div>
-            </div>
-        </div>
-        </div>
-      </div>
-    </header>
+          </div> -->
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <div class="row row-cols-md-2 row-cols-md-3 g-2" id="peliculas">
       <div class="col">
         <div class="card h-100">
           <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oU7Oq2kFAAlGqbU4VoAE36g4hoI.jpg" class="card-img-top" alt="...">
@@ -76,36 +87,22 @@
       </div>
     </div>
 
-    <!-- <div class="container-fluid justify-content-md-end" id="peliculas">
-            <div class="row">
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oU7Oq2kFAAlGqbU4VoAE36g4hoI.jpg">
-                    <div class="card-body">
-                      <h5 class="card-title">Jurassic Park</h5>
-                    </div>
-                  </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/npHNjldbeTHdKKw28bJKs7lzqzj.jpg">
-                    <div class="card-body">
-                      <h5 class="card-title">Ratatouille</h5>
-                    </div>
-                  </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://pics.filmaffinity.com/Cruella-196211257-large.jpg">
-                    <div class="card-body">
-                      <h5 class="card-title">Cruella</h5>
-                    </div>
-                  </div>
-              </div>
-            </div>
-     </div> -->
+     <div class="d-grid gap-2 justify-content col-6 mx-auto">
+      <a button class="btn btn-lg btn-primary" href="./catalog.html" type="button">Catálogo</button></a>
+    </div>
 
 
+
+    <!-- <div class="container col gap-1 d-md-flex justify-content-md-end" id="mail" >
+      <a button class="btn btn-outline-primary" href="./catalog.html" type="button">Sugerencias</button></a>
+    </div> -->
+    <form class="col gap-3 d-md-flex justify-content-md-end" id="mail">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Sugerencias</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
