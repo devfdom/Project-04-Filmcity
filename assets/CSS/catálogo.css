@@ -1,0 +1,99 @@
+*
+    /*-BODY-*/
+.container-xxl{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows:repeat(12, 1fr);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.logoEmpresa{
+    margin-left: -300px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.btn-group{
+    margin-top: -6rem;
+    padding-left: 1450px;
+    position: relative;
+}
+
+.catalogo{
+    /*display: flex;
+    justify-content: center;*/
+    padding-top: 157px;
+    padding-left: 386px;
+    /*font-size: 20px;*/
+    width: 499,05px;
+    height: 104px;
+    font-family: "Codystar", cursive;
+    font-weight: bold; 
+
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Codystar&display=swap);
+html,body{
+  height:55%
+}
+
+.catalogo {
+  text-align: center;
+  width: 65%;
+  height: 250px;
+  margin: auto;
+  position: absolute;
+  top: 35px;
+  left: -430px;
+  right: 0;
+  bottom: 0;
+  user-select: none;
+}
+
+.catalogo b{
+  font: 400 19vh "Codystar";
+  font-size: 88px;
+  color: rgb(8, 7, 7);
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+.catalogo b span{
+  animation: blink linear infinite 2s;
+}
+.catalogo b span:nth-of-type(2){
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: rgb(240, 12, 12);
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: rgb(240, 12, 12);
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: rgb(240, 12, 12);
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
