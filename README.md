@@ -11,7 +11,7 @@ https://github.com/domofra/filmity_inter.git
 
 It is a web page within the corporate intranet of the company Inter Seguros, with which the administrator can modify, check availability, add and delete movies, and users can borrow and rate them.
 
-<img width="250" alt="Captura de pantalla" src="img\desktop1.png">
+<img width="250" alt="desktop1" src="img\desktop1.PNG">
 
 ## **Target of Filmity Inter**
 
